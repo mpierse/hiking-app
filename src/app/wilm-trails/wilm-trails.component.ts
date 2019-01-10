@@ -10,10 +10,12 @@ import { Trails } from '../trails';
 })
 export class WilmTrailsComponent implements OnInit {
 
+
 wilmTrail: Trails = { 
   id : 1,
   name : 'Wilmington Trails'
 };
+
 
   constructor() {}
 
