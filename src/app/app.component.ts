@@ -8,3 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Hiking Helper';
 }
+
+export class Trail{
+  id:number;
+  name:string;
+}

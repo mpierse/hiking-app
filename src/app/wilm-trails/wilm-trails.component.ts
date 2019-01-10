@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Trails } from '../trails';
+
 
 @Component({
   selector: 'app-wilm-trails',
