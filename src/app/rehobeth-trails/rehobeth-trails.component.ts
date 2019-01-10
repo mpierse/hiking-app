@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { REHOBETHTRAILS } from './mock-rehobeth-trails';
 
 @Component({
   selector: 'app-rehobeth-trails',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rehobeth-trails.component.css']
 })
 export class RehobethTrailsComponent implements OnInit {
+
+  trails =REHOBETHTRAILS;
 
   constructor() { }
 

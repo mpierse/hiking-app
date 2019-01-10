@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DOVERTRAILS } from './mock-dover-trails';
 
 @Component({
   selector: 'app-dover-trails',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dover-trails.component.css']
 })
 export class DoverTrailsComponent implements OnInit {
+
+  trails = DOVERTRAILS;
 
   constructor() { }
 

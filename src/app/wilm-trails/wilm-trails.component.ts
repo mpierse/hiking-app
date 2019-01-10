@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Trails } from '../trails';
+import {WILMTRAILS} from './mock-wilm-trails'
 
 
 @Component({
@@ -10,11 +10,7 @@ import { Trails } from '../trails';
 })
 export class WilmTrailsComponent implements OnInit {
 
-
-wilmTrail: Trails = { 
-  id : 1,
-  name : 'Wilmington Trails'
-};
+trails = WILMTRAILS;
 
 
   constructor() {}

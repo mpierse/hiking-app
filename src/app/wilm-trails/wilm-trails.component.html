@@ -1,8 +1,6 @@
-<h2>{{wilmTrails.name | uppercase}} </h2>
-<div><span>id: </span>{{wilmTrails.id}}</div>
-<!-- <div><span>name: </span>{{wilmTrails.name}}</div> -->
-<div>
-  <label>name:
-    <input [(ngModel)]="wilmTrails.name" placeholder="name">
-  </label>
-</div>
+<h2>Wilmington Trails</h2>
+<ul class="Trails">
+  <li *ngFor="let trail of trails">
+    <span class="badge">{{trail.id}}</span> {{trail.name}}
+  </li>
+</ul>

@@ -1,3 +1,6 @@
-<p>
-  rehobeth-trails works!
-</p>
+<h2>Rehobeth Trails</h2>
+<ul class="Trails">
+  <li *ngFor="let trail of trails">
+    <span class="badge">{{trail.id}}</span> {{trail.name}}
+  </li>
+</ul>
