@@ -3,6 +3,12 @@
       color: #369;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 250%;
+      border:  #369;
+      border-style: double;
+      padding: 25px 50px 25px 50px;
+      border-width: 5px;
+      border-radius: 25px;
+      background-color:  rgb(208, 231, 253);
     }
     h2, h3 {
       color: #444;
@@ -11,6 +17,7 @@
     }
     body {
       margin: 2em;
+      background-color:  rgb(231, 238, 245);
     }
     body, input[type="text"], button {
       color: #888;
@@ -19,4 +26,5 @@
     /* everywhere else */
     * {
       font-family: Arial, Helvetica, sans-serif;
+      
     }
