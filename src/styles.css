@@ -15,6 +15,7 @@ h1 {
   body, input[text], button {
     color: #888;
     font-family: Cambria, Georgia;
+    padding: 25px 50px 75px 100px;
   }
   a {
     cursor: pointer;
